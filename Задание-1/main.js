@@ -24,8 +24,11 @@ message = 'Hello!';
 alert(message);
 
 // № 2
-let message = 'Hello!'; 
-alert(message);
+let secondMsg = "Hey, do you hear me? ";
+document.write(secondMsg);
+
+secondMsg = "I'm a super browser <br>";
+document.write(secondMsg)
 
 // № 3
 let userName = prompt("Ваше Имя ?", "Kunduz");
